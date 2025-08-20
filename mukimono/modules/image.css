@@ -1,0 +1,66 @@
+/*============================
+    Image Height Variants
+============================*/
+
+/* Base styles for all image height classes */
+[class^="img"] {
+  display: inline-block;
+  min-width: 16px;
+}
+
+/* Standard max-height values */
+.img16 {
+  max-height: 16px;
+}
+.img16x > img {
+  max-height: 16px;
+}
+
+.img24 {
+  max-height: 24px;
+}
+.img24x > img {
+  max-height: 24px;
+}
+
+.img32 {
+  max-height: 32px;
+}
+.img32x > img {
+  max-height: 32px;
+}
+
+.img48 {
+  max-height: 48px;
+}
+.img48x > img {
+  max-height: 48px;
+}
+
+.img64 {
+  max-height: 64px;
+}
+.img64x > img {
+  max-height: 64px;
+}
+
+.img96 {
+  max-height: 96px;
+}
+.img96x > img {
+  max-height: 96px;
+}
+
+.img128 {
+  max-height: 128px;
+}
+.img128x > img {
+  max-height: 128px;
+}
+
+.img256 {
+  max-height: 256px;
+}
+.img256x > img {
+  max-height: 256px;
+}

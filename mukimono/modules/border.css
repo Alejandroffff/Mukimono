@@ -1,0 +1,160 @@
+/*============================
+    Border Utilities (abreviado)
+============================*/
+
+[class^='bd'] {
+  border-style: solid;
+  border-color: inherit;
+}
+
+/* --- All sides --- */
+.bd1 {
+  border-width: 1px;
+}
+.bd2 {
+  border-width: 2px;
+}
+.bd3 {
+  border-width: 3px;
+}
+.bd4 {
+  border-width: 4px;
+}
+.bd5 {
+  border-width: 5px;
+}
+.bd6 {
+  border-width: 6px;
+}
+
+/* --- Top only --- */
+.bd1t {
+  border-top-width: 1px;
+}
+.bd2t {
+  border-top-width: 2px;
+}
+.bd3t {
+  border-top-width: 3px;
+}
+.bd4t {
+  border-top-width: 4px;
+}
+.bd5t {
+  border-top-width: 5px;
+}
+.bd6t {
+  border-top-width: 6px;
+}
+
+/* --- Bottom only --- */
+.bd1b {
+  border-bottom-width: 1px;
+}
+.bd2b {
+  border-bottom-width: 2px;
+}
+.bd3b {
+  border-bottom-width: 3px;
+}
+.bd4b {
+  border-bottom-width: 4px;
+}
+.bd5b {
+  border-bottom-width: 5px;
+}
+.bd6b {
+  border-bottom-width: 6px;
+}
+
+/* --- Right only --- */
+.bd1r {
+  border-right-width: 1px;
+}
+.bd2r {
+  border-right-width: 2px;
+}
+.bd3r {
+  border-right-width: 3px;
+}
+.bd4r {
+  border-right-width: 4px;
+}
+.bd5r {
+  border-right-width: 5px;
+}
+.bd6r {
+  border-right-width: 6px;
+}
+
+/* --- Left only --- */
+.bd1l {
+  border-left-width: 1px;
+}
+.bd2l {
+  border-left-width: 2px;
+}
+.bd3l {
+  border-left-width: 3px;
+}
+.bd4l {
+  border-left-width: 4px;
+}
+.bd5l {
+  border-left-width: 5px;
+}
+.bd6l {
+  border-left-width: 6px;
+}
+
+/* --- Top & Bottom --- */
+.bd1tb {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+.bd2tb {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+.bd3tb {
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+}
+.bd4tb {
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+}
+.bd5tb {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+}
+.bd6tb {
+  border-top-width: 6px;
+  border-bottom-width: 6px;
+}
+
+/* --- Left & Right --- */
+.bd1lr {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+.bd2lr {
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+.bd3lr {
+  border-left-width: 3px;
+  border-right-width: 3px;
+}
+.bd4lr {
+  border-left-width: 4px;
+  border-right-width: 4px;
+}
+.bd5lr {
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+.bd6lr {
+  border-left-width: 6px;
+  border-right-width: 6px;
+}

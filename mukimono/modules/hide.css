@@ -1,0 +1,78 @@
+/*============================
+    Display Utilities
+============================*/
+
+/* Ocultar siempre */
+.hd {
+  display: none !important;
+}
+
+/* Base hidden classes for different screen sizes */
+.hd_min_321,
+.hd_max_320,
+.hd_min_481,
+.hd_max_480,
+.hd_min_641,
+.hd_max_640,
+.hd_min_769,
+.hd_max_768,
+.hd_min_961,
+.hd_max_960,
+.hd_min_1201,
+.hd_max_1200 {
+  color: inherit; /* Mantener herencia */
+}
+
+/* Extra small / móviles muy pequeños */
+@media screen and (max-width: 320) {
+  .hd_max_320 {
+    display: none !important;
+  }
+}
+
+/* Small mobiles / smartphones */
+@media screen and (min-width: 321) and (max-width: 480) {
+  .hd_321x480,
+  .hd_max_480 {
+    display: none !important;
+  }
+}
+
+/* Medium mobiles / phablets */
+@media screen and (min-width: 481) and (max-width: 640) {
+  .hd_481x640,
+  .hd_max_640 {
+    display: none !important;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 641) and (max-width: 768) {
+  .hd_641x768,
+  .hd_max_768 {
+    display: none !important;
+  }
+}
+
+/* Small desktops / laptops */
+@media screen and (min-width: 769) and (max-width: 960) {
+  .hd_769x960,
+  .hd_max_960 {
+    display: none !important;
+  }
+}
+
+/* Medium desktops */
+@media screen and (min-width: 961) and (max-width: 1200) {
+  .hd_961x1200,
+  .hd_max_1200 {
+    display: none !important;
+  }
+}
+
+/* Large desktops */
+@media screen and (min-width: 1201) {
+  .hd_min_1201 {
+    display: none !important;
+  }
+}

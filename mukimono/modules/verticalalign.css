@@ -1,0 +1,31 @@
+.va_t {
+  vertical-align: top !important;
+}
+
+.va_md {
+  vertical-align: middle !important;
+}
+
+.va_bt {
+  vertical-align: bottom !important;
+}
+
+.va_sub {
+  vertical-align: sub !important;
+}
+
+.va_sup {
+  vertical-align: super !important;
+}
+
+.va_tt {
+  vertical-align: text-top !important;
+}
+
+.va_tb {
+  vertical-align: text-bottom !important;
+}
+
+.va_bs {
+  vertical-align: baseline !important;
+}

@@ -1,0 +1,91 @@
+/*============================
+  Base común para todos los botones btXX, btx, btxx
+============================*/
+[class^="bt"],
+[class^="btx"] > button,
+[class^="btxx"] button {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: inherit;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size: inherit;
+  word-wrap: break-word;
+}
+
+/*============================
+  Alturas y padding por tamaño
+============================*/
+.bt16,
+.bt16x > button,
+.bt16xx button {
+  max-height: 16px;
+  padding: 0 2px;
+}
+.bt24,
+.bt24x > button,
+.bt24xx button {
+  max-height: 24px;
+  padding: 0 4px;
+}
+.bt32,
+.bt32x > button,
+.bt32xx button {
+  max-height: 32px;
+  padding: 0 6px;
+}
+.bt40,
+.bt40x > button,
+.bt40xx button {
+  max-height: 40px;
+  padding: 0 8px;
+}
+.bt48,
+.bt48x > button,
+.bt48xx button {
+  max-height: 48px;
+  padding: 0 10px;
+}
+.bt56,
+.bt56x > button,
+.bt56xx button {
+  max-height: 56px;
+  padding: 0 12px;
+}
+.bt64,
+.bt64x > button,
+.bt64xx button {
+  max-height: 64px;
+  padding: 0 14px;
+}
+.bt72,
+.bt72x > button,
+.bt72xx button {
+  max-height: 72px;
+  padding: 0 16px;
+}
+.bt80,
+.bt80x > button,
+.bt80xx button {
+  max-height: 80px;
+  padding: 0 18px;
+}
+.bt96,
+.bt96x > button,
+.bt96xx button {
+  max-height: 96px;
+  padding: 0 20px;
+}
+.bt112,
+.bt112x > button,
+.bt112xx button {
+  max-height: 112px;
+  padding: 0 22px;
+}
+.bt128,
+.bt128x > button,
+.bt128xx button {
+  max-height: 128px;
+  padding: 0 24px;
+}

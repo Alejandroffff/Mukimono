@@ -1,0 +1,27 @@
+.ta_c {
+  text-align: center !important;
+}
+
+.ta_l {
+  text-align: left !important;
+}
+
+.ta_r {
+  text-align: right !important;
+}
+
+.ta_j {
+  text-align: justify !important;
+}
+
+.ta_s {
+  text-align: start !important;
+}
+
+.ta_e {
+  text-align: end !important;
+}
+
+.ta_m {
+  text-align: match-parent !important;
+}

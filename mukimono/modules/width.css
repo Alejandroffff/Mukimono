@@ -1,0 +1,225 @@
+/* -------------------- ANCHOS PEQUEÑOS Y MEDIANOS -------------------- */
+.w12,
+.w12_x > * {
+  width: 100%;
+  max-width: 12px !important;
+}
+.w12_min,
+.w12_min_x > * {
+  width: 100%;
+  min-width: 12px !important;
+}
+.w12_max,
+.w12_max_x > * {
+  width: 100%;
+  max-width: 12px !important;
+}
+
+.w16,
+.w16_x > * {
+  width: 100%;
+  max-width: 16px !important;
+}
+.w16_min,
+.w16_min_x > * {
+  width: 100%;
+  min-width: 16px !important;
+}
+.w16_max,
+.w16_max_x > * {
+  width: 100%;
+  max-width: 16px !important;
+}
+
+.w24,
+.w24_x > * {
+  width: 100%;
+  max-width: 24px !important;
+}
+.w24_min,
+.w24_min_x > * {
+  width: 100%;
+  min-width: 24px !important;
+}
+.w24_max,
+.w24_max_x > * {
+  width: 100%;
+  max-width: 24px !important;
+}
+
+.w32,
+.w32_x > * {
+  width: 100%;
+  max-width: 32px !important;
+}
+.w32_min,
+.w32_min_x > * {
+  width: 100%;
+  min-width: 32px !important;
+}
+.w32_max,
+.w32_max_x > * {
+  width: 100%;
+  max-width: 32px !important;
+}
+
+.w40,
+.w40_x > * {
+  width: 100%;
+  max-width: 40px !important;
+}
+.w40_min,
+.w40_min_x > * {
+  width: 100%;
+  min-width: 40px !important;
+}
+.w40_max,
+.w40_max_x > * {
+  width: 100%;
+  max-width: 40px !important;
+}
+
+.w48,
+.w48_x > * {
+  width: 100%;
+  max-width: 48px !important;
+}
+.w48_min,
+.w48_min_x > * {
+  width: 100%;
+  min-width: 48px !important;
+}
+.w48_max,
+.w48_max_x > * {
+  width: 100%;
+  max-width: 48px !important;
+}
+
+.w56,
+.w56_x > * {
+  width: 100%;
+  max-width: 56px !important;
+}
+.w56_min,
+.w56_min_x > * {
+  width: 100%;
+  min-width: 56px !important;
+}
+.w56_max,
+.w56_max_x > * {
+  width: 100%;
+  max-width: 56px !important;
+}
+
+.w64,
+.w64_x > * {
+  width: 100%;
+  max-width: 64px !important;
+}
+.w64_min,
+.w64_min_x > * {
+  width: 100%;
+  min-width: 64px !important;
+}
+.w64_max,
+.w64_max_x > * {
+  width: 100%;
+  max-width: 64px !important;
+}
+
+.w80,
+.w80_x > * {
+  width: 100%;
+  max-width: 80px !important;
+}
+.w80_min,
+.w80_min_x > * {
+  width: 100%;
+  min-width: 80px !important;
+}
+.w80_max,
+.w80_max_x > * {
+  width: 100%;
+  max-width: 80px !important;
+}
+
+.w96,
+.w96_x > * {
+  width: 100%;
+  max-width: 96px !important;
+}
+.w96_min,
+.w96_min_x > * {
+  width: 100%;
+  min-width: 96px !important;
+}
+.w96_max,
+.w96_max_x > * {
+  width: 100%;
+  max-width: 96px !important;
+}
+
+.w128,
+.w128_x > * {
+  width: 100%;
+  max-width: 128px !important;
+}
+.w128_min,
+.w128_min_x > * {
+  width: 100%;
+  min-width: 128px !important;
+}
+.w128_max,
+.w128_max_x > * {
+  width: 100%;
+  max-width: 128px !important;
+}
+
+.w256,
+.w256_x > * {
+  width: 100%;
+  max-width: 256px !important;
+}
+.w256_min,
+.w256_min_x > * {
+  width: 100%;
+  min-width: 256px !important;
+}
+.w256_max,
+.w256_max_x > * {
+  width: 100%;
+  max-width: 256px !important;
+}
+
+/* -------------------- ANCHOS DE PANTALLA -------------------- */
+.w100pc,
+.w100pc_x > * {
+  width: 100%;
+  max-width: 100% !important;
+}
+.w100pc_min,
+.w100pc_min_x > * {
+  width: 100%;
+  min-width: 100% !important;
+}
+.w100pc_max,
+.w100pc_max_x > * {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.w100vw,
+.w100vw_x > * {
+  width: 100%;
+  max-width: 100vw !important;
+}
+.w100vw_min,
+.w100vw_min_x > * {
+  width: 100%;
+  min-width: 100vw !important;
+}
+.w100vw_max,
+.w100vw_max_x > * {
+  width: 100%;
+  max-width: 100vw !important;
+}

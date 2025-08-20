@@ -1,0 +1,10 @@
+/* Import recommended fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap");
+
+/* Base namespace for Mukimono components */
+.mukimono {
+  font-family: "Inter", "Roboto", "Open Sans", "Lato", "Montserrat", Verdana, Tahoma, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #222;
+}

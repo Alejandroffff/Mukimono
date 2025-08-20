@@ -1,0 +1,71 @@
+/*============================
+    Border Radius Utilities
+============================*/
+
+/*============================
+   Pixel Values
+============================*/
+
+/* rd0 → border-radius: 0px */
+.rd0,
+.rd0x > * {
+  border-radius: 0px !important;
+}
+
+/* rd2 → border-radius: 2px */
+.rd2,
+.rd2x > * {
+  border-radius: 2px !important;
+}
+
+/* rd4 → border-radius: 4px */
+.rd4,
+.rd4x > * {
+  border-radius: 4px !important;
+}
+
+/* rd8 → border-radius: 8px */
+.rd8,
+.rd8x > * {
+  border-radius: 8px !important;
+}
+
+/* rd16 → border-radius: 16px */
+.rd16,
+.rd16x > * {
+  border-radius: 16px !important;
+}
+
+/* rd32 → border-radius: 32px */
+.rd32,
+.rd32x > * {
+  border-radius: 32px !important;
+}
+
+/*============================
+   Percentage Values
+============================*/
+
+/* rd25p → border-radius: 25% */
+.rd25p,
+.rd25px > * {
+  border-radius: 25% !important;
+}
+
+/* rd50p → border-radius: 50% */
+.rd50p,
+.rd50px > * {
+  border-radius: 50% !important;
+}
+
+/* rd75p → border-radius: 75% */
+.rd75p,
+.rd75px > * {
+  border-radius: 75% !important;
+}
+
+/* rd100p → border-radius: 100% */
+.rd100p,
+.rd100px > * {
+  border-radius: 100% !important;
+}

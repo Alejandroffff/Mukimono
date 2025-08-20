@@ -1,0 +1,49 @@
+/*============================
+    Panel Widths (Standard Sizes)
+============================*/
+
+/* Base styles for all panels */
+[class^="pn"] {
+  display: block;
+  font-size: inherit;
+  padding: 0;
+  border: 0;
+  margin: 0 auto; /* centra el panel */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* 320px Panel - Mobile */
+.pn320 {
+  max-width: 320px;
+}
+
+/* 480px Panel - Large Mobile */
+.pn480 {
+  max-width: 480px;
+}
+
+/* 768px Panel - Tablet */
+.pn768 {
+  max-width: 768px;
+}
+
+/* 1024px Panel - Small Desktop */
+.pn1024 {
+  max-width: 1024px;
+}
+
+/* 1280px Panel - Medium Desktop */
+.pn1280 {
+  max-width: 1280px;
+}
+
+/* 1440px Panel - Large Desktop */
+.pn1440 {
+  max-width: 1440px;
+}
+
+/* 1920px Panel - Full HD */
+.pn1920 {
+  max-width: 1920px;
+}

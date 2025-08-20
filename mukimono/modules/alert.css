@@ -1,0 +1,100 @@
+/*============================
+    Modern and Soft Alerts Extended
+============================*/
+
+/* Base styles */
+[class^="al"] {
+  padding: 1rem;
+  margin: 0;
+  border: 0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* al1 = Success */
+.al1 {
+  color: #1f8a65;
+  background-color: #e3f8f1;
+  border: 1px solid #43aa8b;
+  box-shadow: 0 4px 6px rgba(67, 170, 139, 0.1);
+}
+
+/* al2 = Info */
+.al2 {
+  color: #324a8c;
+  background-color: #e9effd;
+  border: 1px solid #6488d3;
+  box-shadow: 0 4px 6px rgba(100, 136, 211, 0.1);
+}
+
+/* al3 = Warning */
+.al3 {
+  color: #a77914;
+  background-color: #fdf7e1;
+  border: 1px solid #eac45f;
+  box-shadow: 0 4px 6px rgba(234, 196, 95, 0.1);
+}
+
+/* al4 = Danger */
+.al4 {
+  color: #9d2c2c;
+  background-color: #fdebeb;
+  border: 1px solid #d9534f;
+  box-shadow: 0 4px 6px rgba(217, 83, 79, 0.1);
+}
+
+/* al5 = Secondary / Neutral */
+.al5 {
+  color: #374151;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 4px 6px rgba(55, 65, 81, 0.05);
+}
+
+/* al6 = Magenta / Pink */
+.al6 {
+  color: #6b21a8;
+  background-color: #f5d0fe;
+  border: 1px solid #a855f7;
+  box-shadow: 0 4px 6px rgba(168, 85, 247, 0.1);
+}
+
+/* al7 = Cyan / Teal */
+.al7 {
+  color: #0e7490;
+  background-color: #ccfbf1;
+  border: 1px solid #14b8a6;
+  box-shadow: 0 4px 6px rgba(20, 184, 166, 0.1);
+}
+
+/* al8 = Orange */
+.al8 {
+  color: #7c2d12;
+  background-color: #ffedd5;
+  border: 1px solid #f97316;
+  box-shadow: 0 4px 6px rgba(249, 115, 22, 0.1);
+}
+
+/* al9 = Purple */
+.al9 {
+  color: #4c1d95;
+  background-color: #ede9fe;
+  border: 1px solid #8b5cf6;
+  box-shadow: 0 4px 6px rgba(139, 92, 246, 0.1);
+}
+
+/* al10 = Turquoise */
+.al10 {
+  color: #134e4a;
+  background-color: #ccfbf1;
+  border: 1px solid #14b8a6;
+  box-shadow: 0 4px 6px rgba(20, 184, 166, 0.1);
+}

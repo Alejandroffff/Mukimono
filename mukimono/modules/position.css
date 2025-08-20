@@ -1,0 +1,123 @@
+/******************************/
+/* Position Utilities - Simplified with pstNUMERO */
+
+/*============================*/
+/* Relative Position */
+/* pst1 → contenedor relativo */
+.pst1 {
+  position: relative;
+  width: 100%;
+}
+
+/*============================*/
+/* Absolute Positions */
+/* pst2 → absolute genérico */
+.pst2 {
+  position: absolute;
+  width: 100%;
+}
+/* pst3 → absolute top-left */
+.pst3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+/* pst4 → absolute top-right */
+.pst4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+}
+/* pst5 → absolute bottom-left */
+.pst5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+/* pst6 → absolute bottom-right */
+.pst6 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+/*============================*/
+/* Sticky Positions */
+/* pst7 → sticky genérico */
+.pst7 {
+  position: sticky;
+  width: 100%;
+}
+/* pst8 → sticky top-left */
+.pst8 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* pst9 → sticky top-right */
+.pst9 {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+/* pst10 → sticky bottom-left */
+.pst10 {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+/* pst11 → sticky bottom-right */
+.pst11 {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+/*============================*/
+/* Fixed Positions */
+/* pst12 → fixed genérico */
+.pst12 {
+  position: fixed;
+  width: 100%;
+}
+/* pst13 → fixed top-left */
+.pst13 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* pst14 → fixed top-right */
+.pst14 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+/* pst15 → fixed bottom-left */
+.pst15 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+/* pst16 → fixed bottom-right */
+.pst16 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+/******************************/

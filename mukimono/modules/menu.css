@@ -1,0 +1,45 @@
+/*============================
+    Menu Widths (Numerical)
+============================*/
+
+/* 64 Width Menu */
+.mn64,
+.mn64x > * {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  width: 100%;
+  max-width: 64px !important;
+}
+
+/* 200 Width Menu */
+.mn200,
+.mn200x > * {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  width: 100%;
+  max-width: 200px !important;
+}
+
+/* 280 Width Menu */
+.mn280,
+.mn280x > * {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  width: 100%;
+  max-width: 280px !important;
+}

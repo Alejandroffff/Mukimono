@@ -1,0 +1,92 @@
+/*============================
+    Modern Note Styles Extended
+============================*/
+
+/* Base styles for all notes using a generic class selector */
+[class^="nt"] {
+  padding: 1rem 1.25rem;
+  margin: 0;
+  border: 0;
+  border-left-width: 6px;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+  background-blend-mode: multiply;
+}
+
+/* Success Note (Green) */
+.nt1 {
+  background-color: #d1fae5; /* Soft mint green */
+  border-left-color: #10b981; /* Emerald green */
+  color: #065f46; /* Dark green */
+}
+
+/* Info Note (Blue) */
+.nt2 {
+  background-color: #e0f2fe; /* Light sky blue */
+  border-left-color: #3b82f6; /* Primary blue */
+  color: #1e3a8a; /* Dark blue */
+}
+
+/* Warning Note (Yellow/Amber) */
+.nt3 {
+  background-color: #fef9c3; /* Pastel yellow */
+  border-left-color: #facc15; /* Golden yellow */
+  color: #92400e; /* Dark amber */
+}
+
+/* Error Note (Red) */
+.nt4 {
+  background-color: #fee2e2; /* Light pink */
+  border-left-color: #ef4444; /* Modern red */
+  color: #991b1b; /* Deep red */
+}
+
+/* Neutral Note (Gray) */
+.nt5 {
+  background-color: #f3f4f6; /* Light gray */
+  border-left-color: #9ca3af; /* Medium gray */
+  color: #374151; /* Dark gray */
+}
+
+/* Magenta Note (Pink/Purple) */
+.nt6 {
+  background-color: #f5d0fe; /* Soft pinkish purple */
+  border-left-color: #a855f7; /* Vivid purple */
+  color: #6b21a8; /* Dark purple */
+}
+
+/* Cyan Note (Teal) */
+.nt7 {
+  background-color: #cffafe; /* Very light cyan */
+  border-left-color: #06b6d4; /* Cyan/teal */
+  color: #0e7490; /* Dark cyan */
+}
+
+/* Orange Note */
+.nt8 {
+  background-color: #ffedd5; /* Light orange */
+  border-left-color: #f97316; /* Bright orange */
+  color: #7c2d12; /* Dark orange */
+}
+
+/* Purple Note */
+.nt9 {
+  background-color: #ede9fe; /* Light lavender */
+  border-left-color: #8b5cf6; /* Vivid purple */
+  color: #4c1d95; /* Dark purple */
+}
+
+/* Turquoise Note */
+.nt10 {
+  background-color: #ccfbf1; /* Soft turquoise */
+  border-left-color: #14b8a6; /* Vibrant turquoise */
+  color: #134e4a; /* Dark turquoise */
+}
+
+/* Hover effects for all notes */
+[class^="nt"]:hover {
+  filter: brightness(0.95);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

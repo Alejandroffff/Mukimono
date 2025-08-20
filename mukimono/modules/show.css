@@ -1,0 +1,237 @@
+/*============================
+    Display básicos
+============================*/
+
+/* Bloques base */
+.sw_b,
+.sw_b_x > * {
+  display: block;
+}
+
+.sw_ib,
+.sw_ib_x > * {
+  display: inline-block;
+}
+
+.sw_f,
+.sw_f_x > * {
+  display: flex;
+}
+
+.sw_if,
+.sw_if_x > * {
+  display: inline-flex;
+}
+
+/*============================
+    Rango 0–320px
+============================*/
+.sw_b_0_320,
+.sw_ib_0_320,
+.sw_f_0_320,
+.sw_if_0_320 {
+  display: none;
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+  .sw_b_0_320 {
+    display: block !important;
+  }
+  .sw_ib_0_320 {
+    display: inline-block !important;
+  }
+  .sw_f_0_320 {
+    display: flex !important;
+  }
+  .sw_if_0_320 {
+    display: inline-flex !important;
+  }
+}
+
+/* Mínimo 321px */
+.sw_b_min_321,
+.sw_ib_min_321,
+.sw_f_min_321,
+.sw_if_min_321 {
+  display: none;
+}
+
+@media screen and (min-width: 321px) {
+  .sw_b_min_321 {
+    display: block !important;
+  }
+  .sw_ib_min_321 {
+    display: inline-block !important;
+  }
+  .sw_f_min_321 {
+    display: flex !important;
+  }
+  .sw_if_min_321 {
+    display: inline-flex !important;
+  }
+}
+
+/* Máximo 320px */
+.sw_b_max_320,
+.sw_ib_max_320,
+.sw_f_max_320,
+.sw_if_max_320 {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .sw_b_max_320 {
+    display: block !important;
+  }
+  .sw_ib_max_320 {
+    display: inline-block !important;
+  }
+  .sw_f_max_320 {
+    display: flex !important;
+  }
+  .sw_if_max_320 {
+    display: inline-flex !important;
+  }
+}
+
+/*============================
+    Rango 321–640px
+============================*/
+.sw_b_321_640,
+.sw_ib_321_640,
+.sw_f_321_640,
+.sw_if_321_640 {
+  display: none;
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+  .sw_b_321_640 {
+    display: block !important;
+  }
+  .sw_ib_321_640 {
+    display: inline-block !important;
+  }
+  .sw_f_321_640 {
+    display: flex !important;
+  }
+  .sw_if_321_640 {
+    display: inline-flex !important;
+  }
+}
+
+/* Mínimo 641px */
+.sw_b_min_641,
+.sw_ib_min_641,
+.sw_f_min_641,
+.sw_if_min_641 {
+  display: none;
+}
+
+@media screen and (min-width: 641px) {
+  .sw_b_min_641 {
+    display: block !important;
+  }
+  .sw_ib_min_641 {
+    display: inline-block !important;
+  }
+  .sw_f_min_641 {
+    display: flex !important;
+  }
+  .sw_if_min_641 {
+    display: inline-flex !important;
+  }
+}
+
+/* Máximo 640px */
+.sw_b_max_640,
+.sw_ib_max_640,
+.sw_f_max_640,
+.sw_if_max_640 {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .sw_b_max_640 {
+    display: block !important;
+  }
+  .sw_ib_max_640 {
+    display: inline-block !important;
+  }
+  .sw_f_max_640 {
+    display: flex !important;
+  }
+  .sw_if_max_640 {
+    display: inline-flex !important;
+  }
+}
+
+/*============================
+    Rango 641–960px
+============================*/
+.sw_b_641_960,
+.sw_ib_641_960,
+.sw_f_641_960,
+.sw_if_641_960 {
+  display: none;
+}
+
+@media screen and (min-width: 641px) and (max-width: 960px) {
+  .sw_b_641_960 {
+    display: block !important;
+  }
+  .sw_ib_641_960 {
+    display: inline-block !important;
+  }
+  .sw_f_641_960 {
+    display: flex !important;
+  }
+  .sw_if_641_960 {
+    display: inline-flex !important;
+  }
+}
+
+/* Mínimo 961px */
+.sw_b_min_961,
+.sw_ib_min_961,
+.sw_f_min_961,
+.sw_if_min_961 {
+  display: none;
+}
+
+@media screen and (min-width: 961px) {
+  .sw_b_min_961 {
+    display: block !important;
+  }
+  .sw_ib_min_961 {
+    display: inline-block !important;
+  }
+  .sw_f_min_961 {
+    display: flex !important;
+  }
+  .sw_if_min_961 {
+    display: inline-flex !important;
+  }
+}
+
+/* Máximo 960px */
+.sw_b_max_960,
+.sw_ib_max_960,
+.sw_f_max_960,
+.sw_if_max_960 {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .sw_b_max_960 {
+    display: block !important;
+  }
+  .sw_ib_max_960 {
+    display: inline-block !important;
+  }
+  .sw_f_max_960 {
+    display: flex !important;
+  }
+  .sw_if_max_960 {
+    display: inline-flex !important;
+  }
+}

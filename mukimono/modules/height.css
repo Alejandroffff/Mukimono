@@ -1,0 +1,211 @@
+/*****************************
+    Height Presets
+*****************************/
+
+/* Altura en porcentaje y viewport */
+.h100 {
+  height: 100% !important;
+}
+.h100_min {
+  min-height: 100% !important;
+}
+.h100_max {
+  max-height: 100% !important;
+}
+
+.h100vh {
+  height: 100vh !important;
+}
+.h100vh_min {
+  min-height: 100vh !important;
+}
+.h100vh_max {
+  max-height: 100vh !important;
+}
+
+.h100vw {
+  height: 100vw !important;
+}
+.h100vw_min {
+  min-height: 100vw !important;
+}
+.h100vw_max {
+  max-height: 100vw !important;
+}
+
+.h100vmin {
+  height: 100vmin !important;
+}
+.h100vmin_min {
+  min-height: 100vmin !important;
+}
+.h100vmin_max {
+  max-height: 100vmin !important;
+}
+
+.h100vmax {
+  height: 100vmax !important;
+}
+.h100vmax_min {
+  min-height: 100vmax !important;
+}
+.h100vmax_max {
+  max-height: 100vmax !important;
+}
+
+/* Alturas estándar en píxeles */
+.h12,
+.h12_x > * {
+  height: 12px !important;
+}
+.h12_min,
+.h12_min_x > * {
+  min-height: 12px !important;
+}
+.h12_max,
+.h12_max_x > * {
+  max-height: 12px !important;
+}
+
+.h16,
+.h16_x > * {
+  height: 16px !important;
+}
+.h16_min,
+.h16_min_x > * {
+  min-height: 16px !important;
+}
+.h16_max,
+.h16_max_x > * {
+  max-height: 16px !important;
+}
+
+.h24,
+.h24_x > * {
+  height: 24px !important;
+}
+.h24_min,
+.h24_min_x > * {
+  min-height: 24px !important;
+}
+.h24_max,
+.h24_max_x > * {
+  max-height: 24px !important;
+}
+
+.h32,
+.h32_x > * {
+  height: 32px !important;
+}
+.h32_min,
+.h32_min_x > * {
+  min-height: 32px !important;
+}
+.h32_max,
+.h32_max_x > * {
+  max-height: 32px !important;
+}
+
+.h40,
+.h40_x > * {
+  height: 40px !important;
+}
+.h40_min,
+.h40_min_x > * {
+  min-height: 40px !important;
+}
+.h40_max,
+.h40_max_x > * {
+  max-height: 40px !important;
+}
+
+.h48,
+.h48_x > * {
+  height: 48px !important;
+}
+.h48_min,
+.h48_min_x > * {
+  min-height: 48px !important;
+}
+.h48_max,
+.h48_max_x > * {
+  max-height: 48px !important;
+}
+
+.h56,
+.h56_x > * {
+  height: 56px !important;
+}
+.h56_min,
+.h56_min_x > * {
+  min-height: 56px !important;
+}
+.h56_max,
+.h56_max_x > * {
+  max-height: 56px !important;
+}
+
+.h64,
+.h64_x > * {
+  height: 64px !important;
+}
+.h64_min,
+.h64_min_x > * {
+  min-height: 64px !important;
+}
+.h64_max,
+.h64_max_x > * {
+  max-height: 64px !important;
+}
+
+.h80,
+.h80_x > * {
+  height: 80px !important;
+}
+.h80_min,
+.h80_min_x > * {
+  min-height: 80px !important;
+}
+.h80_max,
+.h80_max_x > * {
+  max-height: 80px !important;
+}
+
+.h96,
+.h96_x > * {
+  height: 96px !important;
+}
+.h96_min,
+.h96_min_x > * {
+  min-height: 96px !important;
+}
+.h96_max,
+.h96_max_x > * {
+  max-height: 96px !important;
+}
+
+.h128,
+.h128_x > * {
+  height: 128px !important;
+}
+.h128_min,
+.h128_min_x > * {
+  min-height: 128px !important;
+}
+.h128_max,
+.h128_max_x > * {
+  max-height: 128px !important;
+}
+
+.h256,
+.h256_x > * {
+  height: 256px !important;
+}
+.h256_min,
+.h256_min_x > * {
+  min-height: 256px !important;
+}
+.h256_max,
+.h256_max_x > * {
+  max-height: 256px !important;
+}

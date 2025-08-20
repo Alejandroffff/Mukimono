@@ -1,0 +1,49 @@
+/*============================
+    Responsive Width Utilities
+============================*/
+
+/* Base styles for all responsive classes */
+[class^="rps"] {
+  display: inline-block;
+  overflow-wrap: break-word;
+  vertical-align: top;
+}
+
+/*============================
+   Desktop / Default Widths
+============================*/
+
+/* rps50 → 50% width */
+.rps50 {
+  width: 50%;
+}
+
+/* rps33 → 33.33% width */
+.rps33 {
+  width: 33.33%;
+}
+
+/* rps66 → 66.66% width */
+.rps66 {
+  width: 66.66%;
+}
+
+/* rps25 → 25% width */
+.rps25 {
+  width: 25%;
+}
+
+/* rps75 → 75% width */
+.rps75 {
+  width: 75%;
+}
+
+/*============================
+       Mobile Styles
+============================*/
+/* All responsive elements become full-width on small screens (≤640px) */
+@media screen and (max-width: 640px) {
+  [class^="rps"] {
+    width: 100%;
+  }
+}

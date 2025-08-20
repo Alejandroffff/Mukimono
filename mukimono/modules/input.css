@@ -1,0 +1,241 @@
+/*============================
+    Input Mix Styles
+============================*/
+
+/* 16px */
+.ip16,
+.ip16x
+  > :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ),
+.ip16xx
+  :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ) {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: inherit;
+  padding: 0 16px;
+  min-height: 16px;
+  border: 0;
+  width: 100%;
+}
+
+/* 24px */
+.ip24,
+.ip24x
+  > :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ),
+.ip24xx
+  :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ) {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: inherit;
+  padding: 0 16px;
+  min-height: 24px;
+  border: 0;
+  width: 100%;
+}
+
+/* 32px */
+.ip32,
+.ip32x
+  > :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ),
+.ip32xx
+  :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ) {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: inherit;
+  padding: 0 16px;
+  min-height: 32px;
+  border: 0;
+  width: 100%;
+}
+
+/* 40px */
+.ip40,
+.ip40x
+  > :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ),
+.ip40xx
+  :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ) {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: inherit;
+  padding: 0 16px;
+  min-height: 40px;
+  border: 0;
+  width: 100%;
+}
+
+/* 48px */
+.ip48,
+.ip48x
+  > :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ),
+.ip48xx
+  :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ) {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: inherit;
+  padding: 0 16px;
+  min-height: 48px;
+  border: 0;
+  width: 100%;
+}
+
+/* 56px */
+.ip56,
+.ip56x
+  > :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ),
+.ip56xx
+  :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ) {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: inherit;
+  padding: 0 16px;
+  min-height: 56px;
+  border: 0;
+  width: 100%;
+}
+
+/* 64px */
+.ip64,
+.ip64x
+  > :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ),
+.ip64xx
+  :is(
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="checkbox"],
+    textarea,
+    select
+  ) {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: inherit;
+  padding: 0 16px;
+  min-height: 64px;
+  border: 0;
+  width: 100%;
+}

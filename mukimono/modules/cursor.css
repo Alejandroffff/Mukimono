@@ -1,0 +1,129 @@
+/*============================
+    Cursor Styles
+============================*/
+
+/* General */
+.cs1,
+.cs1_x > *:hover {
+  cursor: auto;
+}
+.cs2,
+.cs2_x > *:hover {
+  cursor: none;
+}
+
+/* Selection / Text */
+.cs3,
+.cs3_x > *:hover {
+  cursor: text;
+}
+.cs4,
+.cs4_x > *:hover {
+  cursor: cell;
+}
+
+/* Pointer / Action */
+.cs5,
+.cs5_x > *:hover {
+  cursor: pointer;
+}
+.cs6,
+.cs6_x > *:hover {
+  cursor: alias;
+}
+.cs7,
+.cs7_x > *:hover {
+  cursor: copy;
+}
+.cs8,
+.cs8_x > *:hover {
+  cursor: help;
+}
+.cs9,
+.cs9_x > *:hover {
+  cursor: not-allowed;
+}
+
+/* Resize */
+.cs10,
+.cs10_x > *:hover {
+  cursor: col-resize;
+}
+.cs11,
+.cs11_x > *:hover {
+  cursor: row-resize;
+}
+.cs12,
+.cs12_x > *:hover {
+  cursor: ew-resize;
+}
+.cs13,
+.cs13_x > *:hover {
+  cursor: n-resize;
+}
+.cs14,
+.cs14_x > *:hover {
+  cursor: s-resize;
+}
+.cs15,
+.cs15_x > *:hover {
+  cursor: se-resize;
+}
+.cs16,
+.cs16_x > *:hover {
+  cursor: ne-resize;
+}
+.cs17,
+.cs17_x > *:hover {
+  cursor: sw-resize;
+}
+.cs18,
+.cs18_x > *:hover {
+  cursor: nesw-resize;
+}
+
+/* Move / Grab */
+.cs19,
+.cs19_x > *:hover {
+  cursor: move;
+}
+.cs20,
+.cs20_x > *:hover {
+  cursor: grab;
+}
+.cs21,
+.cs21_x > *:hover {
+  cursor: grabbing;
+}
+
+/* Zoom */
+.cs22,
+.cs22_x > *:hover {
+  cursor: zoom-in;
+}
+.cs23,
+.cs23_x > *:hover {
+  cursor: zoom-out;
+}
+
+/* Scroll / Progress */
+.cs24,
+.cs24_x > *:hover {
+  cursor: all-scroll;
+}
+.cs25,
+.cs25_x > *:hover {
+  cursor: progress;
+}
+.cs26,
+.cs26_x > *:hover {
+  cursor: context-menu;
+}
+.cs27,
+.cs27_x > *:hover {
+  cursor: e-resize;
+}
+.cs28,
+.cs28_x > *:hover {
+  cursor: w-resize;
+}

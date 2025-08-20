@@ -1,0 +1,49 @@
+/*============================
+    Page Width Utilities (Standard Sizes)
+============================*/
+
+/* Base styles for all page width variants */
+[class^="pg"] {
+  display: block;
+  font-size: inherit;
+  padding: 0;
+  border: 0;
+  margin: 0 auto; /* centra el contenido */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* 320px Page Width - Mobile */
+.pg320 {
+  max-width: 320px;
+}
+
+/* 480px Page Width - Large Mobile */
+.pg480 {
+  max-width: 480px;
+}
+
+/* 768px Page Width - Tablet */
+.pg768 {
+  max-width: 768px;
+}
+
+/* 1024px Page Width - Small Desktop */
+.pg1024 {
+  max-width: 1024px;
+}
+
+/* 1280px Page Width - Medium Desktop */
+.pg1280 {
+  max-width: 1280px;
+}
+
+/* 1440px Page Width - Large Desktop */
+.pg1440 {
+  max-width: 1440px;
+}
+
+/* 1920px Page Width - Full HD */
+.pg1920 {
+  max-width: 1920px;
+}

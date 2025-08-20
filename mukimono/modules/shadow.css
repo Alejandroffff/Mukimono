@@ -1,0 +1,75 @@
+/*============================
+    Standard Box Shadows - 20 Variants
+============================*/
+
+/* --- Thin / Subtle Shadows --- */
+.bsd_light {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.bsd_light_md {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+.bsd_light_soft {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Medium Shadows --- */
+.bsd_medium {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12);
+}
+.bsd_medium_md {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+.bsd_medium_soft {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.18);
+}
+.bsd_medium_hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Wide / Deep Shadows --- */
+.bsd_heavy {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+.bsd_heavy_md {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.28);
+}
+.bsd_heavy_soft {
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Soft / Diffuse Shadows --- */
+.bsd_soft_light {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.bsd_soft_medium {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.bsd_soft_heavy {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Directional Shadows --- */
+.bsd_top {
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+.bsd_bottom {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.bsd_left {
+  box-shadow: -4px 0 6px rgba(0, 0, 0, 0.1);
+}
+.bsd_right {
+  box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Inset Shadows --- */
+.bsd_inset_light {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.bsd_inset_medium {
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+.bsd_inset_heavy {
+  box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.2);
+}
